@@ -10,7 +10,7 @@ const CONTENT = {
     },
     hero: {
       greeting: "Hi, I'm",
-      name: "Your Name",
+      name: "Kairanous",
       title: "BI Engineer | Data Engineer in Transition",
       subtitle: "Fintech × Data × AI — Building the bridge from business insight to intelligent systems.",
       cta_portfolio: "View My Work",
@@ -149,8 +149,8 @@ const CONTENT = {
       email_label: "Email",
       github_label: "GitHub",
       linkedin_label: "LinkedIn",
-      form_name: "Your Name",
-      form_email: "Your Email",
+      form_name: "Kairanous",
+      form_email: "kairanous.cheung@gmail.com",
       form_message: "Message",
       form_submit: "Send Message",
       form_note: "* I typically respond within 24 hours."
@@ -171,7 +171,7 @@ const CONTENT = {
     },
     hero: {
       greeting: "你好，我是",
-      name: "Your Name",
+      name: "Kairanous",
       title: "BI工程师 | 数据工程师转职中",
       subtitle: "Fintech × 数据 × AI — 从业务洞察到智能系统，构建跨越的桥梁。",
       cta_portfolio: "查看作品",
@@ -332,7 +332,7 @@ const CONTENT = {
     },
     hero: {
       greeting: "はじめまして、",
-      name: "Your Name",
+      name: "Kairanous",
       title: "BIエンジニア志望 | データエンジニアへ転職中",
       subtitle: "Fintech × データ × AI — ビジネスの洞察からインテリジェントシステムへ。",
       cta_portfolio: "実績を見る",

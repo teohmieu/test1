@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | BI Engineer Portfolio</title>
+  <meta name="description" content="Personal portfolio — BI Engineer, Data Engineer in transition. Fintech × Data × AI." />
+ 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+ 
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+ 
+<!-- ===== NAVBAR ===== -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">YN.dev</a>
+ 
+  <ul id="nav-menu">
+    <li><a href="#about"        id="nav-about">About</a></li>
+    <li><a href="#skills"       id="nav-skills">Skills</a></li>
+    <li><a href="#portfolio"    id="nav-portfolio">Portfolio</a></li>
+    <li><a href="#achievements" id="nav-achievements">Achievements</a></li>
+    <li><a href="#notes"        id="nav-notes">Notes</a></li>
+    <li><a href="#contact"      id="nav-contact">Contact</a></li>
+  </ul>
+ 
+  <div class="nav-controls">
+    <button class="lang-btn active" data-lang="zh" onclick="setLang('zh')">中</button>
+    <button class="lang-btn"        data-lang="ja" onclick="setLang('ja')">日</button>
+    <button class="lang-btn"        data-lang="en" onclick="setLang('en')">EN</button>
+    <button id="menu-toggle" aria-label="Menu">☰</button>
+  </div>
+</nav>
+ 
+<!-- ===== HERO ===== -->
+<section id="hero">
+  <div class="hero-inner">
+    <p class="hero-greeting" id="hero-greeting">Hi, I'm</p>
+    <h1 class="hero-name"    id="hero-name">Your Name</h1>
+    <p class="hero-title"    id="hero-title">BI Engineer | Data Engineer in Transition</p>
+    <p class="hero-subtitle" id="hero-subtitle">Fintech × Data × AI</p>
+    <div class="hero-cta">
+      <a href="#portfolio" class="btn-primary"   id="hero-cta-portfolio">View My Work</a>
+      <a href="#contact"   class="btn-secondary" id="hero-cta-contact">Get In Touch</a>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <span>↓</span>
+  </div>
+</section>
+ 
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section">
+  <div class="section-header">
+    <h2 class="section-title" id="about-title">About Me</h2>
+    <div class="section-divider"></div>
+  </div>
+ 
+  <div class="about-grid">
+    <div class="about-text">
+      <p id="about-p1"></p>
+      <p id="about-p2"></p>
+      <p id="about-p3"></p>
+    </div>
+    <div class="about-career">
+      <h3 class="career-title" id="career-title">Career Journey</h3>
+      <div id="career-timeline"></div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ===== SKILLS ===== -->
+<section id="skills">
+  <div class="section-inner section">
+    <div class="section-header">
+      <h2 class="section-title" id="skills-title">Skills &amp; Tech Stack</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="skills-grid" id="skills-grid"></div>
+  </div>
+</section>
+ 
+<!-- ===== PORTFOLIO ===== -->
+<section id="portfolio" class="section">
+  <div class="section-header">
+    <h2 class="section-title" id="portfolio-title">Portfolio</h2>
+    <p class="section-subtitle" id="portfolio-subtitle">Projects &amp; Dashboards</p>
+    <div class="section-divider"></div>
+  </div>
+  <div class="portfolio-grid" id="portfolio-grid"></div>
+</section>
+ 
+<!-- ===== ACHIEVEMENTS ===== -->
+<section id="achievements">
+  <div class="section-inner section">
+    <div class="section-header">
+      <h2 class="section-title" id="achievements-title">Achievements</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="achievements-grid" id="achievements-grid"></div>
+  </div>
+</section>
+ 
+<!-- ===== READING NOTES ===== -->
+<section id="notes" class="section">
+  <div class="section-header">
+    <h2 class="section-title" id="notes-title">Reading Notes</h2>
+    <p class="section-subtitle" id="notes-subtitle"></p>
+    <div class="section-divider"></div>
+  </div>
+  <div class="notes-list" id="notes-list"></div>
+</section>
+ 
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="section-inner section">
+    <div class="section-header">
+      <h2 class="section-title" id="contact-title">Get In Touch</h2>
+      <p class="section-subtitle" id="contact-subtitle"></p>
+      <div class="section-divider"></div>
+    </div>
+ 
+    <div class="contact-grid">
+      <div class="contact-links">
+        <a href="mailto:your@email.com" class="contact-link">
+          <span class="contact-link-icon">✉️</span>
+          <div>
+            <div class="contact-link-label" id="contact-email-label">Email</div>
+            <div class="contact-link-value">your@email.com</div>
+          </div>
+        </a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-link-icon">💻</span>
+          <div>
+            <div class="contact-link-label" id="contact-github-label">GitHub</div>
+            <div class="contact-link-value">github.com/yourusername</div>
+          </div>
+        </a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-link-icon">🔗</span>
+          <div>
+            <div class="contact-link-label" id="contact-linkedin-label">LinkedIn</div>
+            <div class="contact-link-value">linkedin.com/in/yourusername</div>
+          </div>
+        </a>
+      </div>
+ 
+      <form class="contact-form" id="contact-form">
+        <input type="text"  id="form-name"    placeholder="Your Name"  required />
+        <input type="email" id="form-email"   placeholder="Your Email" required />
+        <textarea           id="form-message" placeholder="Message"    rows="5" required></textarea>
+        <button type="submit" class="btn-submit" id="form-submit">Send Message</button>
+        <p class="form-note" id="form-note">* Typically responds within 24 hours.</p>
+      </form>
+    </div>
+  </div>
+</section>
+ 
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p id="footer-copy">Built with ❤️ and lots of data.</p>
+</footer>
+ 
+<script src="js/content.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
